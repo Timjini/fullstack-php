@@ -1,14 +1,15 @@
+<?php
+    // require_once realpath(__DIR__ . '/vendor/autoload.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chambers For Sport</title>
+        <title>Full Stack - PHP</title>
         <?php include 'header.php'; ?>
     </head>
 <body>
-    <form action="process.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="uploadedFile">
-        <button type="submit">Submit</button>
-    </form>
+    <!-- coaches form -->
+    <a href="pages/coaches/create.php">Create Coach</a>
     <?php include 'coaches.php'; ?>
 </body>
 </html>

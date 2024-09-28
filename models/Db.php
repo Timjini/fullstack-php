@@ -5,7 +5,7 @@ class Db {
     private $pdo;
 
     private function __construct() {
-        $this->pdo = new PDO('mysql:host=89.117.139.1;dbname=u858075988_cfs', 'u858075988_cfs', '150150@Hl');
+        $this->pdo = new PDO('mysql:host=;dbname=', '', '');
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
